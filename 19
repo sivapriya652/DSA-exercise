@@ -1,0 +1,19 @@
+#to count how much ppl got that particular grade
+grades = [85, 92, 78, 65, 88, 91, 73, 89, 55, 94]
+A=0
+B=0
+C=0
+D=0
+for i in grades:
+    if i>=90:
+        A+=1
+    elif i>=80 :
+        B+=1
+    elif i>=70 :
+        C+=1
+    else:
+        D+=1
+print("ppl got A:",A)
+print("ppl got B:",B)
+print("ppl got C:",C)
+print("ppl got D:",D)
