@@ -1,0 +1,15 @@
+#shopping list manager
+shop=[]
+while(True) :
+    operation=input("enter opertaion to be done:")
+    if operation.lower()=="add":
+        name=input("enter name:")
+        shop.append(name)
+        print(shop)
+    elif operation.lower()=="remove":
+        name=input("enter name:")
+        shop.remove(name)
+    elif operation.lower()=="show":
+         print(shop)
+    elif operation.lower()=="quit":
+        break
