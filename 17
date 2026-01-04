@@ -1,0 +1,14 @@
+#find min and max 
+number=[]
+max=1
+min=1
+while len(number)<8:
+    a=int(input("enter random number between 1-100:")) 
+    number.append(a)
+print(number) 
+for i in number:
+   if max<i:
+   max=i 
+   if min>i: 
+   min=i 
+print("maximun number is:",max,"minimum number is:",min)
