@@ -1,0 +1,16 @@
+#find secret number
+secret_number=7
+chances=int(input("enter no.of chances you want to guess the number:"))
+i=0
+while i< (chances):
+    guess=int(input("enter the guess:"))
+    if guess==secret_number:
+        print("you guessed it right!!!")
+    elif guess<secret_number:
+        print("too low")
+    elif guess>secret_number:
+        print("too high")
+    i+=1
+    
+    
+
